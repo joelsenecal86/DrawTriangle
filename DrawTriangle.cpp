@@ -17,7 +17,7 @@ int main()
         for (int j = 0; j < i; j++)
         {
             if (j == (i - 1) && i != input)
-                std::cout << "Y";           
+                std::cout << "X";           
 
             if (j != i && i != input)
                 std::cout << " ";           
