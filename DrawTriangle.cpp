@@ -16,20 +16,16 @@ int main()
 
         for (int j = 0; j < i; j++)
         {
-           if (j == (i - 1) && i != input)
-            {
+            if (j == (i - 1) && i != input)
                 std::cout << "Y";
-            } 
+           
 
-           if (j != i && i != input)
-           {
-               std::cout << " ";
-           }
+            if (j != i && i != input)
+                std::cout << " ";
+           
 
-           if (i == input)
-           {
-               std::cout << "X";
-           }
+            if (i == input)          
+                std::cout << "X";           
         }
 
         std::cout << "" << std::endl;        
