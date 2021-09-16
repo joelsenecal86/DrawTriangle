@@ -17,12 +17,10 @@ int main()
         for (int j = 0; j < i; j++)
         {
             if (j == (i - 1) && i != input)
-                std::cout << "Y";
-           
+                std::cout << "Y";           
 
             if (j != i && i != input)
-                std::cout << " ";
-           
+                std::cout << " ";           
 
             if (i == input)          
                 std::cout << "X";           
