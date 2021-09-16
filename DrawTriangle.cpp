@@ -1,6 +1,3 @@
-// DrawTriangle.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
 
 int main()
@@ -10,20 +7,20 @@ int main()
 
     std::cin >> input;
 
-    for (int i = 0; i <= input; i++)
+    for (int x = 0; x <= input; x++)
     {
         std::cout << "X";
 
-        for (int j = 0; j < i; j++)
+        for (int y = 0; y < x; y++)
         {
-            if (j == (i - 1) && i != input)
-                std::cout << "X";           
+            if (y == (x - 1) && x != input)
+                std::cout << "Y";           
 
-            if (j != i && i != input)
+            if (y != x && x != input)
                 std::cout << " ";           
 
-            if (i == input)          
-                std::cout << "X";           
+            if (x == input)          
+                std::cout << "Y";           
         }
 
         std::cout << "" << std::endl;        
